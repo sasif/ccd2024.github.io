@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCD Workshop 2023</title>
+    <link rel="stylesheet" href="./style.css"> <!-- Replace with the actual path to the CSS file -->
+    <style>
+        .slider {
+            position: relative;
+            width: 100%;
+            height: auto;
+        }
+
+        .slider img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .slider .title-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="nav-container">
+            <a href="#home">Home</a>
+            <a href="#introduction">Introduction</a>
+            <a href="#speakers">Speakers</a>
+            <a href="#schedule">Schedule</a>
+            <a href="#posters">Posters & Spotlights</a>
+            <a href="#organizers">Organizers</a>
+        </div>
+    </div>
+
+    <div class="slider" id="home">
+        <img src="./Lens_LargerCrop.png" alt="Lens image">
+        <div class="title-container">
+            <h2>12th IEEE International Workshop on</h2>
+            <h1>Computational Cameras and Displays</h1>
+          <!--   <h1>CCD 2023</h1>
+            <h2>CVPR workshop on cutting edge research on cameras and displays</h2> -->
+            <h2>West 117, Vancouver Convention Center</h2>
+            <h2>June 18, CVPR 2023</h2>
+        </div>
+    </div>
+
+   <!--  <div class="title-container" id="home">
+        <h1>Computational Cameras and Displays Workshop</h1>
+        <h2>June 18, 2023</h2>
+    </div> -->
+
+    <div class="container">
+        <!--  <div class="announcement-banner">
+            Poster & Spotlight Submissions are now open! Submit <a href="https://forms.gle/2nth2wfJhGLgjVbz6">via this form</a> by May 21st, 2023. <br>
+            Top-tier posters/spotlights will be invited to deliver short research talks at CCD this year.
+        </div>  -->
+        <div class="section" id="introduction">
+            <h2>Introduction</h2>
+            <p>
+                <strong style="font-size: 16px;">Computational photography</strong><span style="font-size: 16px; font-weight: 400;"> has become an increasingly active area of research within the computer vision community. Within the few last years, the amount of research has grown tremendously with dozens of published papers per year in a variety of vision, optics, and graphics venues. A similar trend can be seen in the emerging field of computational displays – spurred by the widespread availability of precise optical and material fabrication technologies, the research community has begun to investigate the joint design of display optics and computational processing. Such displays are not only designed for human observers but also for computer vision applications, providing high-dimensional structured illumination that varies in space, time, angle, and the color spectrum. This workshop is designed to unite the computational camera and display communities in that it considers to what degree concepts from computational cameras can inform the design of emerging computational displays and vice versa, both focused on applications in computer vision.</span>
+            </p>
+            <p>
+                <span style="font-size: 16px; font-weight: 400;">The Computational Cameras and Displays (CCD) workshop series serves as an annual gathering place for researchers and practitioners who design, build, and use computational cameras, displays, and imaging systems for a wide variety of uses. The workshop solicits posters and demo submissions on all topics relating to computational imaging systems.</span>
+            </p>
+            <p>
+                <strong style="font-size: 16px;">Previous CCD Workshops:</strong>
+                <a href="https://sites.northwestern.edu/ccd2022/">CCD2022</a>, 
+                <a href="https://visual.ee.ucla.edu/ccd2021.htm/">CCD2021</a>, 
+                <a href="http://ccd2020.cms.caltech.edu/">CCD2020</a>, 
+                <a href="http://focus.ece.ufl.edu/ccd2019/">CCD2019</a>, 
+                <a href="http://wisionlab.cs.wisc.edu/ccd2018/">CCD2018</a>, 
+                <a href="http://www.computationalimaging.org/ccd2017/">CCD2017</a>, 
+                <a href="http://imagesci.ece.cmu.edu/CCD2016/">CCD2016</a>, 
+                <a href="http://ollie-imac.cs.northwestern.edu/~ollie/CCD2015/">CCD2015</a>, 
+                <a href="http://www.ece.rice.edu/~vb10/CVPR2014/CCD2014/index.php">CCD2014</a>, 
+                <a href="http://computationalcamerasanddisplays.media.mit.edu/">CCD2013</a>, 
+                <a href="http://computationalcamerasanddisplays.media.mit.edu/2012/">CCD2012</a>
+            </p>
+        </div>
+
+
+<div class="section" id="speakers">
+    <h2>Keynote Talks</h2>
+    <div class="people">
+        <a href="https://engineering.purdue.edu/~bouman/">
+            <img src="https://engineering.purdue.edu/~bouman/images/bouman4.jpg" alt="Charles A. Bouman">
+            <div>Charles A. Bouman</div>
+            <div class="aff">Purdue University</div>
+        </a>
+        <a href="https://www.di.ens.fr/~mallat/">
+            <img src="https://www.di.ens.fr/~mallat/StephaneM.jpg" alt="Stéphane Mallat">
+            <div>Stéphane Mallat</div>
+            <div class="aff">Collège de France</div>
+        </a>
+        <a href="http://luvision.net/">
+            <img src="https://www.ee.tsinghua.edu.cn/__local/F/76/C6/6F35580A33E5A6D34DB52856626_F164D88A_6CEE.jpg" alt="Lu Fang">
+            <div>Lu Fang</div>
+            <div class="aff">Tsinghua University</div>
+        </a>
+        <a href="https://mdelbra.github.io/">
+            <img src="https://mdelbra.github.io/img/me2.jpg" alt="Mauricio Delbracio">
+            <div>Mauricio Delbracio</div>
+            <div class="aff">Google</div>
+        </a>
+        <!-- Add the rest of the keynote speakers in a similar manner -->
+    </div>
+    <h2>Invited Talks</h2>
+    <div class="people">
+        <a href="https://www.ninamiolane.com/">
+            <img src="https://bioshape.ece.ucsb.edu/sites/default/files/images/2021-08/portrait_pro_square_555Kb.jpg" alt="Nina Miolane">
+            <div>Nina Miolane</div>
+            <div class="aff">UC Santa Barbara</div>
+        </a>
+        <a href="https://yang-song.net/">
+            <img src="https://yang-song.net/assets/img/profile.jpg" alt="Yang Song">
+            <div>Yang Song</div>
+            <div class="aff">OpenAI & Caltech</div>
+        </a>
+        <a href="https://www.wadduwagelab.com/">
+            <img src="https://static.wixstatic.com/media/b5d33c_91f31728bdd54236b31d6e14646b58e3~mv2.png/v1/crop/x_105,y_0,w_858,h_1068/fill/w_392,h_492,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Dushan.png" alt="Dushan Wadduwage">
+            <div>Dushan Wadduwage</div>
+            <div class="aff">Harvard University</div>
+        </a>
+        <a href="https://people.csail.mit.edu/liangs/">
+            <img src="https://people.csail.mit.edu/liangs/figures/nyc_round.jpg" alt="Shi Liang">
+            <div>Shi Liang</div>
+            <div class="aff">MIT</div>
+        </a>
+        <!-- Add the rest of the invited speakers in a similar manner -->
+    </div>
+</div>
+
+    <div class="section" id="schedule">
+        <h2>Tentative Schedule</h2>
+        <table>
+  <tr>
+    <td>Time (Vancouver local)</td>
+    <td>Title</td>
+    <td>Speaker</td>
+    <td>Host</td>
+  </tr>
+  <tr>
+    <td>8:50 – 9:00am</td>
+    <td>Welcome & Opening Remarks</td>
+    <td>Organizers</td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td>9:00 – 9:40am</td>
+    <td>Keynote: Generative Plug-and-Play: The Saga Continues</td>
+    <td>Charles Bouman</td>
+    <td>David Lindell</td>
+  </tr>
+  <tr>
+    <td>9:40 – 10:20am</td>
+    <td>Keynote (remote): Towards Aberration-free Imaging - <br>from "Holism" to "Meta"</td>
+    <td>Lu Fang</td>
+    <td>David Lindell</td>
+  </tr>
+  <tr>
+    <td>10:20 – 11:20am</td>
+    <td>Morning Coffee & Poster</td>
+    <td></td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td>11:20 – 11:40am</td>
+    <td>Invited Talk: Differentiable Optics: A Generalized Paradigm<br> for Optical System Design</td>
+    <td>Dushan Wadduwage</td>
+    <td>Mark Sheinin</td>
+  </tr>
+  <tr>
+    <td>11:40 – 12:00am</td>
+    <td>Invited Talk： Physics-Inspired Deep Generative Models<br> for Cryo-Electron Microscopy</td>
+    <td>Nina Miolane</td>
+    <td>Mark Sheinin</td>
+  </tr>
+  <tr>
+    <td>12:00 – 12:10am</td>
+    <td>Spotlight Talk: Swept-Angle Synthetic Wavelength Interferometry</td>
+    <td>Alankar Kotwal</td>
+    <td>Mark Sheinin</td>
+  </tr>
+  <tr>
+    <td>12:10 – 12:20am</td>
+    <td>Spotlight Talk: Neural Kaleidoscopic Space Sculpting</td>
+    <td>Michael De Zeeuw</td>
+    <td>Mark Sheinin</td>
+  </tr>
+  <tr>
+    <td>12:20 – 1:30pm</td>
+    <td>Lunch</td>
+    <td></td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td>1:30 – 2:10pm</td>
+    <td>Keynote (remote): Multiscale Random Models of Deep <br>Neural Networks</td>
+    <td>Stephane Mallat</td>
+    <td>Steven(Yuhang) Wang</td>
+  </tr>
+  <tr>
+    <td>2:10 – 2:30pm</td>
+    <td>Invited Talk (Remote): Breaking the Curse of Dimensionality<br> in Generative Modeling: A Homotopic Approach</td>
+    <td>Yang Song</td>
+    <td>Steven(Yuhang) Wang</td>
+  </tr>
+  <tr>
+    <td>2:30 – 2:50pm</td>
+    <td>Afternoon coffee</td>
+    <td></td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td>2:50 – 3:10pm</td>
+    <td>Invited Talk (Remote): Towards holographic displays with <br>higher image brightness and better ergonomics</td>
+    <td>Liang Shi</td>
+    <td>Steven(Yuhang) Wang</td>
+  </tr>
+  <tr>
+    <td>3:10 – 3:50pm</td>
+    <td>Keynote (Remote): Image Restoration through Inversion by Direct Iteration</td>
+    <td>Mauricio Delbracio</td>
+    <td>Steven(Yuhang) Wang</td>
+  </tr>
+  <tr>
+    <td>3:50 – 4:00pm</td>
+    <td>Closing Remarks</td>
+    <td>Organizers</td>
+    <td> </td>
+  </tr>
+</table>
+    </div>
+
+<!--     <div class="section" id="location">
+        <h2>Location</h2>
+        <p>To be announced soon.</p>
+    </div> -->
+
+    <div class="section" id="posters">
+        <h2>Posters & Spotlights</h2>
+        <div align="middle">
+    <iframe width="997" height="561" src="https://www.youtube.com/embed/FbnoEK_HXQY" title="CVPR CCD 2023 Poster spotlight videos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+       <table>
+  <tr>
+    <td>ID</td>
+    <td>Poster Board Location</td>
+    <td>Title</td>
+    <td>Presenter</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>West Exhibit Hall #62</td>
+    <td>Megahertz Light Steering without Moving Parts</td>
+    <td>Adithya Pediredla</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>West Exhibit Hall #63</td>
+    <td>Monte Carlo Simulation of Partial Differential Equations</td>
+    <td>Ioannis Gkioulekas</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>West Exhibit Hall #64</td>
+    <td>Neural Implicit Surface Reconstruction using Imaging Sonar</td>
+    <td>Mohamad Qadri</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>West Exhibit Hall #65</td>
+    <td>Neural Kaleidoscopic Space Sculpting</td>
+    <td>Byeongjoo Ahn</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>West Exhibit Hall #66</td>
+    <td>Swept-Angle Synthetic Wavelength Interferometry</td>
+    <td>Alankar Kotwal</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>West Exhibit Hall #67</td>
+    <td>Event-based Shape from Polarization</td>
+    <td>Manasi Muglikar</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>West Exhibit Hall #68</td>
+    <td>Structured Kernel Estimation for Photon-Limited Deconvolution</td>
+    <td>Yash Sanghvi</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>West Exhibit Hall #69</td>
+    <td>Polarimetric Light Transport Analysis for Specular Inter-reflection of Metal Objects</td>
+    <td>Ryota Maeda</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>West Exhibit Hall #70</td>
+    <td>Performance correlations amongst real and synthesized image reconstruction problems for machine learning research</td>
+    <td>Youssef Mansour</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>West Exhibit Hall #71</td>
+    <td>Implicit Neural Networks with Fourier-Feature Inputs for Free-breathing Cardiac MRI Reconstruction</td>
+    <td>Reinhard Heckel</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>West Exhibit Hall #72</td>
+    <td>Split-Lohmann Multifocal Displays</td>
+    <td>Wei-Yu Chen</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>West Exhibit Hall #73</td>
+    <td>Walk on Stars: A Grid-Free Monte Carlo Method for PDEs with Neumann Boundary Conditions</td>
+    <td>Rohan Sawhney</td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>West Exhibit Hall #74</td>
+    <td>Lending a Listening Ear: Generating Suitable Soundscapes for Classic Silent Movies</td>
+    <td>Nevasini</td>
+  </tr>
+   <tr>
+    <td>14</td>
+    <td>West Exhibit Hall #75</td>
+    <td>Enhancing Cameras with Conditional Diffusion Model: Single Image LDR to HDR Conversion</td>
+    <td>Dwip Dalal</td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>West Exhibit Hall #76</td>
+    <td>HDR Imaging with Spatially Varying Signal-to-Noise Ratios</td>
+    <td>Yiheng Chi</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>West Exhibit Hall #77</td>
+    <td>Passive Micron-scale Time-of-Flight with Sunlight Interferometry</td>
+    <td>Alankar Kotwal</td>
+  </tr>
+  <tr>
+    <td>17</td>
+    <td>West Exhibit Hall #78</td>
+    <td>Multiplexed Pixels: Light Field Camera with Overlapping Views for High-Resolution 3D Reconstruction</td>
+    <td>Vi Tran</td>
+  </tr>
+</table>
+    </div>
+
+    <div class="section" id="organizers">
+        <h2>Workshop Chairs</h2>
+        <div class="people">
+            <a href="https://hesunpu.github.io/">
+                <img src="https://nbic.pku.edu.cn/images/2022-10/dce7c21c8f864a5cad5494280a2df222.png" alt="He Sun">
+                <div>He Sun</div>
+                <div class="aff">Peking University</div>
+            </a>
+            <a href="https://engineering.wustl.edu/faculty/Ulugbek-Kamilov.html">
+                <img src="https://mckelveyengineeringfaculty.imgix.net/Ulugbek-Kamilov1.jpg?w=325&h=250&auto=format&q=70&cs=tinysrgb&fit=facearea&facepad=3&dpr=1.5" alt="Ulugbek Kamilov">
+                <div>Ulugbek Kamilov</div>
+                <div class="aff">WashU</div>
+            </a>
+            <a href="https://intra.ece.ucr.edu/~sasif/">
+                <img src="https://intra.ece.ucr.edu/~sasif/images/salman.jpg" alt="Salman Asif">
+                <div>Salman Asif</div>
+                <div class="aff">UC Riverside</div>
+            </a>
+            <a href="https://bme.ucdavis.edu/people/yi-xue">
+                <img src="https://bme.ucdavis.edu/sites/g/files/dgvnsk5766/files/styles/sf_profile/public/media/images/headshot_YiXue_2021.JPG?h=5f7320ae&itok=nFr9q9ca" alt="Yi Xue">
+                <div>Yi Xue</div>
+                <div class="aff">UC Davis</div>
+            </a>
+        </div>
+        <h2>Local Chairs</h2>
+        <div class="people">
+            <a href="https://davidlindell.com/">
+                <img src="https://davidlindell.com/assets/img/prof_pic.jpg" alt="Lindell">
+                <div>David Lindell</div>
+                <div class="aff">University of Toronto</div>
+            </a>
+            <a href="https://www.marksheinin.com/">
+                <img src="https://static.wixstatic.com/media/a41a28_00e0c880c1574c93b65620b4721e2e49~mv2.jpg/v1/fill/w_660,h_720,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/a41a28_00e0c880c1574c93b65620b4721e2e49~mv2.jpg" alt="Sheinin">
+                <div>Mark Sheinin</div>
+                <div class="aff">CMU</div>
+            </a>
+            <a href="https://www.linkedin.com/in/steven-yuhang-wang">
+                <img src="http://csbmb.beckman.illinois.edu/images/people/steven2.jpg" alt="Steven (Yuhang) Wang">
+                <div>Steven (Yuhang) Wang</div>
+                <div class="aff">DP Technology</div>
+            </a>
+        </div>
+    </div>
+
+   <!--  <div class="section"  id="organizers">
+            <h2>Workshop Chairs</h2>
+            <p>
+                <a href="https://hesunpu.github.io/">He Sun</a>, Peking University<br />
+                <a href="https://engineering.wustl.edu/faculty/Ulugbek-Kamilov.html">Ulugbek Kamilov</a>, WashU<br />
+                <a href="https://intra.ece.ucr.edu/~sasif/">Salman Asif</a>, UC Riverside<br />
+                <a href="https://bme.ucdavis.edu/people/yi-xue">Yi Xue</a>, UC Davis<br />
+            </p>
+    </div> -->
+
+</div>
+
+<div class="foot">
+    <p>Computational Cameras and Displays Workshop - June 18, 2023</p>
+</div>
